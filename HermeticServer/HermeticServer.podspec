@@ -15,7 +15,7 @@ s.source = { :git => "https://github.com/JaimeYesidLeonParada/HermeticServer.git
 
 s.framework = "UIKit"
 s.dependency 'OHHTTPStubs'
-s.source_files = 'HermeticServer/HermeticServerManager/OHHTTPManager.swift'
+s.source_files = "HermeticServer/HermeticServerManager/**/*"
 s.resources = "HermeticServer/HermeticServerManager/**/*.{png,jpeg,jpg,storyboard,xib,plist}"
 
 end
