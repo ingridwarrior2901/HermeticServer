@@ -18,7 +18,7 @@ s.dependency 'OHHTTPStubs'
 #s.source_files = "HermeticServer/HermeticServerManager/**/*.{swift}"
 #s.resources = "HermeticServer/HermeticServerManager/**/*.{png,jpeg,jpg,storyboard,xib,plist}"
 
-spec.source_files = 'HermeticServer/Pod/Classes/OHHTTPManager.swift'
-spec.resources    = 'HermeticServer/Pod/Assets/**/*.{plist}'
+spec.source_files = 'HermeticServer/HermeticServerManager/OHHTTPManager.swift'
+spec.resources    = "HermeticServer/HermeticServerManager/**/*.{png,jpeg,jpg,storyboard,xib,plist}"
 
 end
