@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>request</key>
+	<array>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>endPoint</key>
+			<string></string>
+			<key>contains</key>
+			<string>q=Toy+Story+3</string>
+			<key>status</key>
+			<integer>200</integer>
+			<key>downloadSpeed</key>
+			<integer>-1500</integer>
+			<key>path</key>
+			<string>Incredibles.json</string>
+			<key>enable</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>endPoint</key>
+			<string></string>
+			<key>contains</key>
+			<string>q=Aladin</string>
+			<key>status</key>
+			<integer>200</integer>
+			<key>downloadSpeed</key>
+			<integer>-7</integer>
+			<key>path</key>
+			<string>Tomorrowland.json</string>
+			<key>enable</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
