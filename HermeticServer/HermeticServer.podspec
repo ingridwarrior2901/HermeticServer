@@ -14,7 +14,7 @@ s.homepage = "https://github.com/JaimeYesidLeonParada/HermeticServer"
 s.source = { :git => "https://github.com/JaimeYesidLeonParada/HermeticServer.git", :tag => "#{s.version}"}
 
 s.framework = "UIKit"
-s.source_files = "HermeticServer/**/*.{swift}"
+s.source_files = "HermeticServer/HermeticServerManager/**/*.{swift}"
 s.resources = "HermeticServer/HermeticServerManager/**/*.{png,jpeg,jpg,storyboard,xib,plist}"
 
 end
