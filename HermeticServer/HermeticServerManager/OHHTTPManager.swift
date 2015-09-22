@@ -23,13 +23,13 @@ class OHHTTPManager: NSObject {
     
     //MARK:Setup---
     
-    func start()
+   public func start()
     {
         OHHTTPStubs.setEnabled(true)
         self.configurationFromPlist()
     }
     
-    func stop()
+    public func stop()
     {
         OHHTTPStubs.removeAllStubs()
     }
